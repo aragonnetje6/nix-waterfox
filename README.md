@@ -26,8 +26,7 @@ Since the Waterfox browser isn't currently in **nixpkgs**, this flake implements
 
 ## Installation
 
-This flake supports `x86_64` & `aarch64` for both Linux and Darwin. Note while `waterfox-bin` supports all Darwin architectures, it only supports `x86_64-linux`, so if you want to use Waterfox on `aarch64-linux`, you have to use the from-source build.
-
+This flake supports `x86_64` Linux.
 ### Running Waterfox in a Nix-Shell
 
 You can test Waterfox on your system by running it in a **Nix-Shell**. It is recommendet to use the `-bin` package for this.
