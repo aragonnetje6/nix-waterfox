@@ -5,13 +5,13 @@
 
 <p align="center">
 <a href="https://www.waterfox.com/download"><img src="https://img.shields.io/badge/version-6.7.6-blue" alt="version"/></a>
-<a href="https://github.com/Hythera/nix-waterfox/stargazers"><img src="https://img.shields.io/github/stars/Hythera/nix-waterfox" alt="stars"/>
+<a href="https://github.com/aragonnetje6/nix-waterfox/stargazers"><img src="https://img.shields.io/github/stars/aragonnetje6/nix-waterfox" alt="stars"/>
 </p>
 
 <div align="center">
   <a href="https://www.waterfox.com">Waterfox</a>
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-  <a href="https://github.com/Hythera/nix-waterfox/issues/new">Issues</a>
+  <a href="https://github.com/aragonnetje6/nix-waterfox/issues/new">Issues</a>
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
   <a href="https://www.waterfox.com/releases">Changelog</a>
   <br />
@@ -47,7 +47,7 @@ The second way is to install Waterfox on your NixOS system. While you can use th
 # flake.nix
 {
   inputs = {
-    waterfox.url = "github:Hythera/nix-waterfox";
+    waterfox.url = "github:aragonnetje6/nix-waterfox";
     ...
   };
   outputs = {
