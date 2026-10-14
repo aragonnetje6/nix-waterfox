@@ -33,7 +33,7 @@ You can test Waterfox on your system by running it in a **Nix-Shell**. It is rec
 
 ```bash
 # Run the Nix-Shell (requires the new experimental Nix command)
-nix shell github:Hythera/nix-waterfox#waterfox-bin
+nix shell github:aragonnetje6/nix-waterfox#waterfox-bin
 
 # Start Waterfox
 waterfox
