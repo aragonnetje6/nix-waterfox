@@ -54,7 +54,4 @@
     platforms = lib.platforms.unix;
   };
   updateScript = ./update.sh;
-}).override
-  {
-    crashreporterSupport = false;
-  }
+})
